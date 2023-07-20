@@ -1,0 +1,108 @@
+.LayoutContainer {
+  .headerStyle {
+    text-align: center;
+    color: #fff;
+    height: 64;
+    padding-inline: 50;
+    line-height: "64px";
+    background: #39aebc;
+  }
+
+  .contentStyle {
+    text-align: center;
+    min-height: 120;
+    line-height: 120px;
+    color: #39aebc;
+    .buttonStyle {
+      text-align: "center";
+      min-height: 50px;
+      background-color: #39aebc;
+      font-weight: 500;
+      color: #ffffff;
+      border: 1px solid #ffffff;
+    }
+    .buttonStyle:hover{
+        color: #ffffff;
+    }
+  }
+}
+.CustomerDrawer {
+  .ant-drawer-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 0 !important;
+  }
+  .ant-drawer-header {
+    background: #39aebc;
+    .ant-drawer-title {
+      color: #ffffff;
+    }
+  }
+  .DrawerContent {
+    margin: 20px;
+  }
+  .SegmentLabel {
+    margin: 20px 0;
+    font-weight: 400;
+  }
+  .NameInput {
+    border: 1px solid black;
+  }
+  .SegmentLine {
+    margin: 20px 0;
+    font-weight: 400;
+  }
+  .AddedDropdown{
+    border: 1px solid dodgerblue;
+    padding: 10px 20px;
+    margin: 20px 0;
+    .NewDropdown{
+        width: 100%;
+        border: 1px solid black;
+        border-radius: 8px;
+        margin: 5px 0;
+    }
+    .ant-select-selector{
+        border-color: transparent !important;
+    }
+  }
+  .MainDropdownContainer{
+    .MainDropdown{
+        width: 100%;
+        border: 1px solid black;
+        border-radius: 8px;
+    }
+    .ant-select-selector{
+        border-color: transparent !important;
+    }
+    .schemaBtn{
+        margin: 20px 0;
+        background: transparent;
+        color: #41b494;
+        font-weight: 500;
+        border: none;
+        box-shadow: 0;
+    }
+  }
+  .Footer {
+    margin: 0;
+    padding: 20px 30px;
+    background-color: lightgray;
+    display: flex;
+    gap: 20px;
+    .SaveBtn {
+      color: #ffffff;
+      background-color: #41b494;
+      border: none;
+    }
+    .SaveBtn:hover{
+        color:#ffffff;
+    }
+    .CancelBtn {
+      //   background-color: "#ffffff";
+      color: #ed5e8e;
+      border: none;
+    }
+  }
+}
